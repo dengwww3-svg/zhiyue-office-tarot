@@ -1,0 +1,13 @@
+interface:
+  display_name: "知月塔罗｜抽牌与生活指引"
+  short_description: "聊天内完成韦特选牌、牌图解读与补牌追问，结合生日节日模式及整体正负向总结"
+  default_prompt: "请使用 $zhiyue-tarot，用简体中文依我的问题推荐牌阵，等我确认后抽牌，直接展示牌图与解读，最后总结整体倾向，并支持沿用原牌补牌追问。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
